@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd contest Aug</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div id="nav">
+            <a href="#books" class="navChild" id="bk">Books</a>
+            <a href="#registration" class="navChild" id="reg">Register</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <section id="books" class="section">
+        <table id="table1">
+            <h3>Books</h3>
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genre</th>
+                <th>Availability</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <p class="bkt"><u>Book Title1</u></p>
+                    <table id="table2" class="top">
+                        <tr>
+                            <td class="">Publication Date:2000</td>
+                        </tr>
+                        <tr>
+                            <td>Page Count:250</td>
+                        </tr>
+                        <tr>
+                            <td>ISBN:123-4567890123</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Author Name1</td>
+                <td>Genre1</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>
+                    <p class="bkt"><u>Book Title2</u></p>
+                    <table id="table3" class="top">
+                        <tr>
+                            <td>Publication Date:2005</td>
+                        </tr>
+                        <tr>
+                            <td>Page Count:300</td>
+                        </tr>
+                        <tr>
+                            <td>ISBN:123-4567890456</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Author Name2</td>
+                <td>Genre2</td>
+                <td>Not Available</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>
+                    <p class="bkt"><u>Book Title3</u></p>
+                    <table id="table4" class="top">
+                        <tr>
+                            <td>Publication Date:2010</td>
+                        </tr>
+                        <tr>
+                            <td>Page Count:350</td>
+                        </tr>
+                        <tr>
+                            <td>ISBN:123-4567890789</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>Author Name3</td>
+                <td>Genre3</td>
+                <td>Available</td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <br>
+
+    <section id="registration" class="section">
+        <div class="container">
+            <h2>Register</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label><br>
+                    <input type="text" id="firstname" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label><br>
+                    <input type="text" id="lastname" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="age">Age:</label><br>
+                    <input type="number" id="age" min="5" max="100" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required>
+                </div><br>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password:</label><br>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div><br>
+                <div class="form-group">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
